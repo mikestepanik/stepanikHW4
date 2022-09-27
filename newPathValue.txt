@@ -1,0 +1,11 @@
+#!/bin/bash
+#This script modifies the path variable to /home/debian/cpe422/
+#This script takes no arguments
+
+#Example invocation debian@beaglebone:~/cpe422$ ./mySetup.sh
+
+echo Assigning a new path to the path variable...
+PATH=$PATH:$HOME/cpe422/stepanikHW4/
+export PATH
+echo New path assigned to the path variable!
+
